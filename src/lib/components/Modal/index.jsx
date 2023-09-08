@@ -1,17 +1,23 @@
-import React from 'react'; 
+import React, {useState } from 'react'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 const Modal = (props) => {
 
+  const [showModal, setShowModal] = useState(true)
+
+
   const handleToggle = () => {
-    props.toggleModal(!props.showingModal);
+    setShowModal(false);
+    props.handleResponse()
   };
+
+
 
   return (
     <>
-      {props.showingModal && (
+      {showModal && (
         <div>
           <div className="modal show" tabIndex="-1" role="dialog" style={{ display: 'block' }}>
             <div className="modal-dialog" role="document">
