@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 require("bootstrap/dist/css/bootstrap.min.css");
 require("./index.css");
-const MyModal = props => {
+const Modal = props => {
   const handleToggle = () => {
     props.toggleModal(!props.showingModal);
   };
@@ -32,5 +32,5 @@ const MyModal = props => {
     onClick: handleToggle
   }, "Close")))))));
 };
-var _default = MyModal;
+var _default = Modal;
 exports.default = _default;
