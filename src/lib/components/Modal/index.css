@@ -1,0 +1,9 @@
+
+.modal-content {
+    background-color: blue;
+    color: white;
+}
+  
+.modal-body {
+    border-bottom: none; 
+}
