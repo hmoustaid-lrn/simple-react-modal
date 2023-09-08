@@ -2,12 +2,19 @@
   "name": "hmstd-react-modal",
   "description": "A simple react modal",
   "author": "Hicham Moustaid",
-  "keywords": ["react", "components", "modal"],
+  "keywords": [
+    "react",
+    "components",
+    "modal"
+  ],
   "version": "0.1.0",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "files": [ "dist", "README.md" ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hmoustaid-lrn/simple-react-modal.git"
@@ -18,6 +25,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.1",
+    "hmstd-react-modal": "^0.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",

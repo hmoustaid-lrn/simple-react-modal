@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
-const MyModal = (props) => {
+const Modal = (props) => {
 
   const handleToggle = () => {
     props.toggleModal(!props.showingModal);
@@ -31,4 +31,4 @@ const MyModal = (props) => {
   );
 };
 
-export default MyModal;
+export default Modal;
